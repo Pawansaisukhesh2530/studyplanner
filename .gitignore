@@ -1,0 +1,34 @@
+.venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+data/student_growth.db*
+data/backups/
+tmp/
+.runtime/
+
+# Local application records and account notes
+data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+.env
+.env.*
+
+# Keep reports and presentations on this computer only
+outputs/
+*.[pP][dD][fF]
+*.[pP][pP][tT]
+*.[pP][pP][tT][xX]
+*.[pP][pP][sS][xX]
+
+# Temporary tool and test output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
+
